@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Good-timing";
+  src: url("../fonts/good-timing.ttf");
+}
+
+@font-face {
+  font-family: "Espera";
+  font-style: italic;
+  src: url("../fonts/Espera-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Espera";
+  font-weight: bold;
+  font-style: italic;
+  src: url("../fonts/Espera-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Espera";
+  font-weight: bold;
+  src: url("../fonts/Espera-Bold.ttf");
+}
+
+:root {
+  --header-font: "Good-timing";
+  --text-font: "Espera";
+  --background-color: #0D0208;
+  --font-color: #008F11;
+  --cell-color: #00FF41;
+}
+/*# sourceMappingURL=variables.css.map */

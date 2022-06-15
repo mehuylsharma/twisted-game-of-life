@@ -1,0 +1,90 @@
+@import url("./variables.css");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  font-family: var(--text-font);
+  font-size: 18px;
+  color: white;
+  background-color: var(--background-color);
+}
+
+.main {
+  margin-top: 25px;
+}
+
+.main .title {
+  font-family: var(--header-font);
+  font-size: 48px;
+}
+
+.main button {
+  font-family: var(--text-font);
+  font-size: 20px;
+  width: 300px;
+  height: 30px;
+}
+
+.main input {
+  font-family: var(--text-font);
+  font-size: 20px;
+  width: 90px;
+  height: 30px;
+  overflow-y: none;
+  text-align: center;
+}
+
+.main input[type=number] {
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+}
+
+.main .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.main .content .info-container {
+  width: 100%;
+}
+
+.main .content .info-container .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 200px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main .content .canvas-container {
+  width: 1000px;
+  height: 500px;
+  opacity: 0.8;
+  background-image: linear-gradient(var(--font-color) 1px, transparent 1px), linear-gradient(to right, var(--font-color) 1px, var(--background-color) 1px);
+  background-size: 25px 25px;
+}
+/*# sourceMappingURL=index.css.map */
